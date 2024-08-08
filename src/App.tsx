@@ -1,9 +1,13 @@
-import { useState } from "react";
-
+import SearchHeader from "./components/SearchHeader/SearchHeader";
 import "./App.css";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <SearchHeader />
+      <div className="welcome">Добро пожаловать</div>
+    </>
+  );
 }
 
 export default App;
