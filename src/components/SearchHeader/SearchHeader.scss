@@ -22,6 +22,9 @@
 }
 
 .search-header > input:focus {
+  font-style: normal;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.87);
   border: 3px solid;
   border-color: yellow;
 }
