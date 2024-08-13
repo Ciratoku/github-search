@@ -5,12 +5,9 @@ function SearchHeader() {
   return (
     <AppBar sx={{ bgcolor: "#00838F" }}>
       <Toolbar>
-        <input
-          className="search-bar"
-          placeholder="Введите поисковый запрос"
-        ></input>
+        <input className="search-bar" placeholder="Введите поисковый запрос" />
         <Button className="search-btn" variant="contained" sx={{ left: 10 }}>
-          Поиск
+          ИСКАТЬ
         </Button>
       </Toolbar>
     </AppBar>
