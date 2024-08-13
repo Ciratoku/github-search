@@ -1,10 +1,21 @@
 import SearchHeader from "./components/SearchHeader/SearchHeader";
-import { BottomNavigation } from "@mui/material";
+import { BottomNavigation, Stack } from "@mui/material";
 
 function App() {
   return (
-    <>
+    <Stack direction="column" spacing={40}>
       <SearchHeader />
+      <div
+        style={{
+          maxWidth: "fit-content",
+          marginLeft: "auto",
+          marginRight: "auto",
+          fontSize: "2em",
+          color: "#4F4F4F",
+        }}
+      >
+        Добро пожаловать
+      </div>
       <BottomNavigation
         sx={{
           width: "100%",
@@ -15,7 +26,7 @@ function App() {
           left: 0,
         }}
       ></BottomNavigation>
-    </>
+    </Stack>
   );
 }
 
