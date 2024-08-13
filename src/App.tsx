@@ -1,11 +1,20 @@
 import SearchHeader from "./components/SearchHeader/SearchHeader";
-import "./App.css";
+import { BottomNavigation } from "@mui/material";
 
 function App() {
   return (
     <>
       <SearchHeader />
-      <div className="welcome">Добро пожаловать</div>
+      <BottomNavigation
+        sx={{
+          width: "100%",
+          height: "5%",
+          bgcolor: "#4F4F4F",
+          position: "absolute",
+          bottom: 0,
+          left: 0,
+        }}
+      ></BottomNavigation>
     </>
   );
 }
